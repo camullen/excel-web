@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.Sheet-container {
+  display: flex;
+  align-items: flex-start
+}
+
+.Column-labels-row {
+  display: flex;
+}
+
+.Row-labels-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.Rows-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Row {
+  display: flex;
+}
+
+.Cell {
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  margin: auto;
+  border-bottom: 2px solid;
+  border-right: 2px solid;
+}
+
+.Row-label {
+  width: 50px;
+  height: 30px;
+  line-height: 30px;
+  margin: auto;
+  border-top: 2px solid;
+  border-right: 2px solid;
+  border-left: 2px solid;
+  background-color: lightgray;
+}
+
+.Column-label {
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  margin: auto;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-right: 2px solid;
+  background-color: lightgray;
+}
